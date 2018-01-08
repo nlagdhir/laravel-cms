@@ -1,0 +1,10 @@
+.carousel-inner>.item>img{ width: 100%; }
+.carousel-control.right span, .carousel-control.icon-next span , .carousel-control.left span, .carousel-control.icon-prev span{ margin-top: -13px; margin-left: -14px; }
+
+.thumbs-gallery{ width:100%; }
+.thumbs-gallery .thumbBox{ width:48% }
+.thumbs-gallery i{ height: auto; }
+
+.all-videos .vid-title{ font-size: 24px; text-transform: capitalize; margin:10px 0; }
+.all-videos .vid-description { margin: 15px 5px; font-size: 14px; }
+.all-videos li{ border: 1px solid #ccc; border-radius: 10px; padding: 15px; background: #fff; list-style: none; margin-bottom: 15px;}
