@@ -4,9 +4,9 @@ It's simple CMS project. I have worked in this project while I have started lear
 
 I am uploading this project in public becuase it will help some starter in laravel.glyphicon-pawn
 
-I have not added seed file in this project for demo data. I have uploaded database.sql file with this project. you just need to upload database file after done migration in your local project.glyphicon-pawn
+I have not added seed file in this project for demo data. I have uploaded database.sql file with this project. you just need to upload database file after done migration in your local project.
 
-#What is covered in repo:
+# What is covered in repo:
 
 	- Add/Update/View/Delete Post/Portfolio/Video
 	- Homepage slider management with caption and external link
