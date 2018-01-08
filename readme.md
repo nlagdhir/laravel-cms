@@ -1,27 +1,35 @@
-# Laravel PHP Framework
+# Laravel CMS
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+It's simple CMS project. I have worked in this project while I have started learning in laravel. it's take some time to build it. I learn step by step and implement in this project.glyphicon-pawn
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+I am uploading this project in public becuase it will help some starter in laravel.glyphicon-pawn
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+I have not added seed file in this project for demo data. I have uploaded database.sql file with this project. you just need to upload database file after done migration in your local project.glyphicon-pawn
 
-## Official Documentation
+#What is covered in repo:
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+	- Add/Update/View/Delete Post/Portfolio/Video
+	- Homepage slider management with caption and external link
+	- Page Management with slug generation. page layout selection, Ckeditior, parent selection for page.
+	- Expert settings in Our expert section. you can add your company expert(team) this section and it will display in about us page as well. Also you can add skills of your company this section.
+	- homepage content is fully dynamic. you can change it from homepage under setting menu.
+	- you can manage all footer colums in global setting and header/footer menu as well. 
 
-## Contributing
+# Installation
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+When you clone this project cd into directory and then:
 
-## Security Vulnerabilities
+ - Copy .env.example to .env
+ - `composer install`
+ - `chmod -R 777 storage/ bootstrap/`
+ - `php artisan key:generate`
+ - Fill .env file with database credentials and upload paths.
+ - import database.sql to your database
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+# Admin Details
 
-## License
+ URL : yourlocalurl/admin/dashboard    
+ username : admin@gmail.com
+ password : 12345678
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+Now you are all set. 
